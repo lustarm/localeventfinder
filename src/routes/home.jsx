@@ -5,7 +5,7 @@ const Home = () => {
         <>
             <div className="flex flex-row items-center justify-center py-10">
                 <h1 className="text-xl font-test">
-                    Hello, welcome to Local Event Finder!
+                    Git pull test
                 </h1>
             </div>
         </>
