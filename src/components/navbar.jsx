@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const Navbar = () => {
     return (
         <nav className="bg-gray-800 text-white p-3 shadow-lg">
@@ -11,9 +13,9 @@ const Navbar = () => {
                         </button>
                     </li>
                     <li>
-                        <a href="#" className="hover:text-blue-400">
+                        <Link to="/about" className="hover:text-blue-400">
                             About
-                        </a>
+                        </Link>
                     </li>
                 </ul>
             </div>
