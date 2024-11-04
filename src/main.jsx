@@ -9,11 +9,17 @@ import {
 import './index.css'
 import Home from './routes/home'
 import ErrorPage from "./error-page.jsx";
+import About from './routes/about.jsx';
 
 const router = createBrowserRouter([
     {
         path: "/",
         element: <Home />,
+        errorElement: <ErrorPage />,
+    },
+    {
+        path: "/about",
+        element: <About />,
         errorElement: <ErrorPage />,
     },
     {
