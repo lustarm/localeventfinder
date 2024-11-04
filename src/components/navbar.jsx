@@ -1,7 +1,7 @@
 const Navbar = () => {
     return (
         <nav className="bg-gray-800 text-white p-3 shadow-lg">
-            <div className="container mx-auto flex justify-between items-center">
+            <div className="font-gae container mx-auto flex justify-between items-center">
                 <div className="font-bold text-lg">Local Event Finder</div>
                 <ul className="flex space-x-4">
                     <li>

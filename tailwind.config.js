@@ -7,7 +7,7 @@ export default {
     theme: {
         extend: {
             fontFamily: {
-                test: ["Arial", "sans-serif"],
+                'gae': ["Gaegu", "sans-serif"],
             },
         },
     },
