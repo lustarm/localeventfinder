@@ -5,7 +5,7 @@ export default function ErrorPage() {
     console.error(error);
 
     return (
-        <div className="font-gae text-3xl flex flex-col items-center justify-center py-10">
+        <div className="min-h-screen bg-gray-800 font-gae text-3xl flex flex-col items-center justify-center">
             {/* this looks crazy i cant lie */}
             <h1>Oops!</h1>
             {error ? (
