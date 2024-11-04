@@ -1,14 +1,16 @@
-import { Link, useLocation } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
-    const location = useLocation();
-    const isAboutPage = location.pathname === '/about';
-
     return (
         <nav className="bg-gray-800 text-white p-3 shadow-lg">
             <div className="font-gae container mx-auto flex justify-between items-center">
                 <div className="font-bold text-lg">Local Event Finder</div>
                 <ul className="flex space-x-4">
+                    <li>
+                        <Link to="/" className="hover:text-blue-400 font-semibold">
+                            Home
+                        </Link>
+                    </li>
                     <li>
                         <Link to="/login" className="hover:text-blue-400 font-semibold">
                             Log in
@@ -25,9 +27,8 @@ const Navbar = () => {
                         </Link>
                     </li>
                     <li>
-                        <Link to={isAboutPage ? "/" : "/about"} className="hover:text-blue-400
-                                                                            font-semibold">
-                            {isAboutPage ? "Home" : "About"}
+                        <Link to={"/about"} className="hover:text-blue-400 font-semibold">
+                            About
                         </Link>
                     </li>
                 </ul>

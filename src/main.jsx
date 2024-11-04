@@ -10,6 +10,7 @@ import './index.css'
 import Home from './routes/home'
 import ErrorPage from "./error-page.jsx";
 import About from './routes/about.jsx';
+import Contact from './routes/contact.jsx';
 
 const router = createBrowserRouter([
     {
@@ -20,6 +21,11 @@ const router = createBrowserRouter([
     {
         path: "/about",
         element: <About />,
+        errorElement: <ErrorPage />,
+    },
+    {
+        path: "/contact",
+        element: <Contact />,
         errorElement: <ErrorPage />,
     },
     {
