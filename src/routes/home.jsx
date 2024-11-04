@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom"
 import Navbar from "../components/navbar"
 import "../index.css"
 
@@ -39,9 +40,41 @@ const Home = () => {
                     If you would like to add your store please contact us at placeholder@place.holder
                 </p>
             </div>
-            <div>
-
+            <div className="font-gae font-semibold flex justify-center py-10 items-center">
+                <ul className="flex space-x-6">
+                    <li>
+                        <Link
+                            to="/"
+                            className="w-20 h-20 flex items-center justify-center
+                            bg-blue-500 hover:bg-blue-600 text-white font-semibold
+                            rounded-full transition duration-200"
+                        >
+                            T
+                        </Link>
+                    </li>
+                    <li>
+                        <Link
+                            to="/"
+                            className="w-20 h-20 flex items-center justify-center
+                            bg-blue-500 hover:bg-blue-600 text-white font-semibold
+                            rounded-full transition duration-200"
+                        >
+                            T
+                        </Link>
+                    </li>
+                    <li>
+                        <Link
+                            to="/"
+                            className="w-20 h-20 flex items-center justify-center
+                            bg-blue-500 hover:bg-blue-600 text-white font-semibold
+                            rounded-full transition duration-200"
+                        >
+                            T
+                        </Link>
+                    </li>
+                </ul>
             </div>
+
         </div>
     );
 }
