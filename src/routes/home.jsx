@@ -32,9 +32,9 @@ const Home = () => {
                     </div>
                 </div>
             </div>
-            <div className="flex flex-col items-center justify-center font-gae text-2xl font-bold">
+            <div className="flex flex-col items-center justify-center font-gae text-2xl font-semibold">
                 <p>
-                    Were always trying to find and promote small business' as such as yours!
+                    Were always trying to find and promote small business events as such as yours!
                 </p>
                 <p>
                     If you would like to add your store please contact us at placeholder@place.holder
@@ -49,7 +49,7 @@ const Home = () => {
                             bg-blue-500 hover:bg-blue-600 text-white font-semibold
                             rounded-full transition duration-200"
                         >
-                            T
+                            Live Music
                         </Link>
                     </li>
                     <li>
@@ -59,7 +59,7 @@ const Home = () => {
                             bg-blue-500 hover:bg-blue-600 text-white font-semibold
                             rounded-full transition duration-200"
                         >
-                            T
+                            Art Shows
                         </Link>
                     </li>
                     <li>
@@ -69,7 +69,7 @@ const Home = () => {
                             bg-blue-500 hover:bg-blue-600 text-white font-semibold
                             rounded-full transition duration-200"
                         >
-                            T
+                            Meetups
                         </Link>
                     </li>
                 </ul>
