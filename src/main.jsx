@@ -13,6 +13,7 @@ import About from './routes/about.jsx';
 import Contact from './routes/contact.jsx';
 import Register from './routes/register.jsx';
 import Login from './routes/login.jsx';
+import Category from './routes/category.jsx';
 
 const router = createBrowserRouter([
     {
@@ -38,6 +39,11 @@ const router = createBrowserRouter([
     {
         path: "/register",
         element: <Register />,
+        errorElement: <ErrorPage />,
+    },
+    {
+        path: "/find/:category",
+        element: <Category />,
         errorElement: <ErrorPage />,
     },
     {
