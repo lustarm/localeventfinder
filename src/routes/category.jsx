@@ -32,10 +32,6 @@ const Category = () => {
                     {filteredEvents.length > 0 ? (
                         filteredEvents.map(event => (
                             <div key={event.id} className="bg-gray-800 rounded shadow-lg p-6 hover:scale-105 transform transition duration-300">
-                                <div className="flex justify-center">
-                                    <p>test</p>
-                                </div>
-
                                 <h2 className="text-2xl font-semibold mb-2">{event.name}</h2>
                                 <p className="text-gray-400">{event.date}</p>
                                 <p className="mt-1">{event.location}</p>

@@ -44,7 +44,7 @@ const Home = () => {
                 <ul className="flex space-x-6">
                     <li>
                         <Link
-                            to="/music"
+                            to="/find/music"
                             className="w-20 h-20 flex items-center justify-center
                             bg-blue-500 hover:bg-blue-600 text-white font-semibold
                             rounded-full transition duration-200"
@@ -54,7 +54,7 @@ const Home = () => {
                     </li>
                     <li>
                         <Link
-                            to="/art"
+                            to="/fing/art"
                             className="w-20 h-20 flex items-center justify-center
                             bg-blue-500 hover:bg-blue-600 text-white font-semibold
                             rounded-full transition duration-200"
@@ -64,7 +64,7 @@ const Home = () => {
                     </li>
                     <li>
                         <Link
-                            to="/"
+                            to="/find/meetups"
                             className="w-20 h-20 flex items-center justify-center
                             bg-blue-500 hover:bg-blue-600 text-white font-semibold
                             rounded-full transition duration-200"
