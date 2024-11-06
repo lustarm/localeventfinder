@@ -20,7 +20,7 @@ const Category = () => {
     return (
         <>
             <Navbar />
-            <div className="min-h-screen bg-gray-900 text-white">
+            <div className="min-h-screen bg-gray-900 text-white font-gae">
                 {/* Hero Section */}
                 <div className="bg-blue-700 text-center py-10">
                     <h1 className="text-4xl font-bold capitalize">Explore {category} Events</h1>
